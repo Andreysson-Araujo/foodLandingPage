@@ -25,19 +25,19 @@ const Navbar = () => {
       icon: <HomeIcon />,
     },
     {
-      text: "About",
+      text: "Sobre",
       icon: <InfoIcon />,
     },
     {
-      text: "Testimonials",
+      text: "Depoimentos",
       icon: <CommentRoundedIcon />,
     },
     {
-      text: "Contact",
+      text: "Contato",
       icon: <PhoneRoundedIcon />,
     },
     {
-      text: "Cart",
+      text: "Reservas",
       icon: <ShoppingCartRoundedIcon />,
     },
   ];
@@ -49,13 +49,13 @@ const Navbar = () => {
       </div>
       <div className="navbar-links-container">
         <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Testimonials</a>
-        <a href="">Contact</a>
+        <a href="">Sobre</a>
+        <a href="">Depoimentos</a>
+        <a href="">Contato</a>
         <a href="">
           <BsCart2 className="navbar-cart-icon" />
         </a>
-        <button className="primary-button">Bookings Now</button>
+        <button className="primary-button">Reserve Ja</button>
       </div>
     <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
